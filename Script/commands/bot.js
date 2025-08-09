@@ -10,7 +10,7 @@ module.exports.config = {
  commandCategory: "simsim",
  usages: "[message/query]",
  cooldowns: 0,
- prefix: true
+ prefix: false
 };
 
 module.exports.run = async function ({ api, event, args, Users }) {
